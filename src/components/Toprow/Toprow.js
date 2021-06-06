@@ -16,9 +16,11 @@ const Toprow = ( props ) => {
                         <h3 className='html bullet'>HTML</h3>
                         <h3 className=' bullet'>•</h3>
                         <h3 className='css bullet'>CSS</h3>
+                        <h3 className=' bullet'>•</h3>
                         <h3 className='javascript bullet'>JAVASCRIPT</h3>
                         <h3 className=' bullet'>•</h3>
                         <h3 className='react bullet'>REACT</h3>
+                        <h3 className=' bullet'>•</h3>
                         <h3 className='bootstrap bullet'>BOOTSTRAP</h3>
                         <h3 className=' bullet'>•</h3>
                         <h3 className='github bullet'>GIT</h3>

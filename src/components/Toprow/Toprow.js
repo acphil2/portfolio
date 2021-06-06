@@ -23,7 +23,7 @@ const Toprow = ( props ) => {
                         <h3 className=' bullet'>•</h3>
                         <h3 className='github bullet'>GIT</h3>
                     </div>  
-                    <div className='my-github'>GITHUB</div>
+                    <a href='https://github.com/acphil2' target='_blank' rel='noreferrer'><div className='my-github'>GITHUB</div></a>
                 </div>      
             </div>	
 		</div>

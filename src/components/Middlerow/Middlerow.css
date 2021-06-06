@@ -25,7 +25,7 @@
 	background-image: linear-gradient(to left, #2B2928, rgba(36,34,33,.85));
 	text-shadow: 3px 2px rgba(0,0,0);
 	margin-top: 30px;
-	padding: 5% 4% 0 4%;
+	padding: 12px 8px 1px 8px;
 	border-left: 10px double #4e545e;
 	border-top: 10px double #4e545e;
 	border-bottom: 10px double #4e545e;
@@ -130,6 +130,7 @@
 	.holly {
 		margin-top: 15px;
 		font-size: 16px;
+		padding: 10px 6px 2px 6px;
 	}	
 	.circle {
 		width: 180px;
@@ -161,7 +162,7 @@
 		width: 28px;
 		height: 56px;
 		position: relative;
-		left: -26px;
+		left: -22px;
 		top: 96px;
 		transform: rotate(5deg);
 	}

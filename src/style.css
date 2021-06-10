@@ -4,6 +4,11 @@
 	box-sizing: border-box;
 }
 
+body {
+	width: 100%;
+	height: 100%;
+}
+
 @font-face {
 	font-family: 'JosefinSans-Bold';
 	src: local('JosefinSans-Bold'), url(./Assets/fonts/JosefinSans-Bold.ttf) format('truetype');
@@ -20,14 +25,20 @@
 }
 
 .App {
-	min-width: 100vw;
+	height: 100%;
+	width: 100%;
 	min-height: 100vh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	background-color: #2B2928;
 	font-family: 'JosefinSans-Bold', sans-serif;
-	overflow: auto;
+	-ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.App::-webkit-scrollbar {
+	display: none;
 }
 
 .main {
@@ -39,8 +50,16 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	overflow: scroll;
+	margin: 10px;
+	-ms-overflow-style: none;  /* IE and Edge */
+  	scrollbar-width: none;  /* Firefox */
 }
+
+.main::-webkit-scrollbar {
+	display: none;
+}
+
+
 
 @media only screen and (max-width: 500px) {
 	.main {

@@ -3,11 +3,11 @@ import './Bottomrow.css'
 
 const Bottomrow = ( props ) => {  
     return(
-    	<div className='bottom-row'>
+    	<div className='bottom-row row'>
     		<div className='bottom-left'>
                 <a href='https://acphil2.github.io/light-board/' target='_blank' rel='noreferrer'>
             		<div className='lightbright-h1'>
-            			<h1>Lite<br/>Brite</h1>
+            			<h2>Lite•Brite</h2>
             		</div>
                 </a>
                 <div className='flag'>Made in React</div>

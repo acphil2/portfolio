@@ -7,7 +7,7 @@ import Bottomrow from './components/Bottomrow/Bottomrow';
 const App = ( props ) => {  
     return(
       <div className='App'>
-      	<div className='main'>
+      	<div className='main container'>
 	        <Toprow/>
 	        <Middlerow/>
 	        <Bottomrow/>

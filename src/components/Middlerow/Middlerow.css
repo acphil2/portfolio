@@ -3,8 +3,13 @@
 	display: flex;
 	text-align: center;
 	overflow: hidden;
+	padding: 1.5rem 0;
 	background-image: linear-gradient(to right, #49505c, #595f69, #595f69, #49505c);
+}
 
+.middle-left {
+	display: flex;
+	justify-content: center;
 }
 
 .holly {
@@ -77,3 +82,6 @@
 }
 
 
+.holly-ui-img {
+	max-width: 310px;
+}

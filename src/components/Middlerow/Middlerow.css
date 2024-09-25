@@ -1,87 +1,97 @@
 .middle-row {
 	width: 100%;
 	display: flex;
-	text-align: center;
 	overflow: hidden;
-	padding: 1.5rem 0;
-	background-image: linear-gradient(to right, #49505c, #595f69, #595f69, #49505c);
+	padding: 3rem;
+	background-image: linear-gradient(to bottom right, #3a404a, #3a404a, #49505c, #49505c, #3a404a, #3a404a);
+}
+
+.middle-right {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .middle-left {
 	display: flex;
-	justify-content: center;
-}
-
-.holly {
-	font-size: 24px;
-	color: rgba(250, 235, 215, .9);
-	background-image: linear-gradient(to left, #2B2928, rgba(36,34,33,.85));
-	text-shadow: 3px 2px rgba(0,0,0);
-	margin-top: 30px;
-	padding: 12px 8px 1px 8px;
-	border-left: 10px double #4e545e;
-	border-top: 10px double #4e545e;
-	border-bottom: 10px double #4e545e;
-	border-radius: 14px 0 0 14px;
-	text-align: center;
-}
-
-.holly-image {
-	width: 40px;
-	height: 80px;
-	position: relative;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-image: url('../../Assets/images/holly.png');
-	z-index: 3;
-	float: left;
-	transform: rotate(355deg);
-	animation: holly 5s linear infinite;
-}
-
-.circle {
-	display: flex;
-	justify-content: center;
+	flex-direction: column;
 	align-items: center;
 	position: relative;
-	width: 270px;
-	height: 270px;
-	top: 76px;
-	left: 30px;
-	border-radius: 50%;
-	border-right: 1px solid rgba(255,255,255,.5);
-	box-shadow: 3px 0px #3c414a; 
-	background-image: linear-gradient(to bottom right, rgba(250,235,215,.8), rgba(250,235,215,1));
 }
 
-.paragraph {
-	border-radius: 50%;
-	font-family: 'JosefinSans-Light', sans-serif;
-	font-size: 24px;
-	color: #4e545e;
-	font-weight: bold;
-	text-align: center;
-	margin-bottom: 60px;
-	margin-right: 14px;
+.middle-left p {
+	font-family: 'JosefinSans-Light';
+	color: #faebd7;
+	text-align: justify;
+	margin-bottom: 1rem;
+	font-size: 1.5rem;
+	line-height: 1.9rem;
+}
+
+.holly-img {
+	width: 80px;
+	z-index: 3;
+	transform: rotate(6deg);
+	animation: holly 2s ease-in-out infinite;
+	position: absolute;
+	left: 5%;
+	top: 0;
 }
 
 
 @keyframes holly {
 	0% {
+		top: 0;
+	}
+
+	50% {
+		opacity: .8;
+		top: -3px;
+	}
+	100% {
+		top: 0;
 		opacity: 1;
 	}
-	65%{
-		opacity: 1;
-	}
-  	80% {
-  		opacity: .6;
-  	}
-  	100% {
-  		opacity: 1;
-  	}
 }
 
-
 .holly-ui-img {
-	max-width: 310px;
+	background-color: #272727b5;
+	border-radius: 5%;
+	box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.holly-ui-img-container {
+	max-width: 350px;
+	position: relative;
+}
+
+.holly-logo-img {
+	max-width: 180px;
+	margin-bottom: 1rem;
+	border-radius: 50%;
+	box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.btn-outline-primary {
+	color: #faebd7;
+	padding: .5rem 1rem .25rem 1rem;
+	border-color: rgba(250, 235, 215, .9);
+	border-width: 4px;
+	border-style: double;
+	border-radius: 30px;
+	font-size: 1.25rem;
+	box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+	margin-bottom: 1rem;
+}
+
+.btn-outline-primary:hover {
+	background-color: #faebd7;
+	border-color: #faebd7;
+	color: #3a404a;
+	box-shadow: none;
+}
+
+.middle-row h2 {
+	color: #faebd7;
+	margin-bottom: 0;
 }

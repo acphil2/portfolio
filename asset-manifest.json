@@ -1,22 +1,20 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.81b1ae94.chunk.css",
-    "main.js": "/portfolio/static/js/main.f442f62d.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.f442f62d.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.35094c09.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.35094c09.js.map",
-    "static/js/2.49cf40a4.chunk.js": "/portfolio/static/js/2.49cf40a4.chunk.js",
-    "static/js/2.49cf40a4.chunk.js.map": "/portfolio/static/js/2.49cf40a4.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.eabccce9.css",
+    "main.js": "/portfolio/static/js/main.9397ef57.js",
+    "static/media/game-ui.png": "/portfolio/static/media/game-ui.5fb46fc8cc661ff2ad9a.png",
+    "static/media/Kalam-Bold.ttf": "/portfolio/static/media/Kalam-Bold.d81b8c41ea262db68514.ttf",
+    "static/media/lightbright.png": "/portfolio/static/media/lightbright.5c5937a07d5dc92dd0d0.png",
+    "static/media/holly-haunted-logo-light.png": "/portfolio/static/media/holly-haunted-logo-light.4e15f4c760b7040936ae.png",
+    "static/media/JosefinSans-Light.ttf": "/portfolio/static/media/JosefinSans-Light.05518b75cf49a8f7b124.ttf",
+    "static/media/JosefinSans-Bold.ttf": "/portfolio/static/media/JosefinSans-Bold.5cc7b0d19c96e8c83733.ttf",
+    "static/media/holly.PNG": "/portfolio/static/media/holly.0d853b6c75fc543e0cd6.PNG",
     "index.html": "/portfolio/index.html",
-    "static/css/main.81b1ae94.chunk.css.map": "/portfolio/static/css/main.81b1ae94.chunk.css.map",
-    "static/js/2.49cf40a4.chunk.js.LICENSE.txt": "/portfolio/static/js/2.49cf40a4.chunk.js.LICENSE.txt",
-    "static/media/style.css": "/portfolio/static/media/Kalam-Bold.d81b8c41.ttf",
-    "static/media/Bottomrow.css": "/portfolio/static/media/lightbright.88da7107.png"
+    "main.eabccce9.css.map": "/portfolio/static/css/main.eabccce9.css.map",
+    "main.9397ef57.js.map": "/portfolio/static/js/main.9397ef57.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.35094c09.js",
-    "static/js/2.49cf40a4.chunk.js",
-    "static/css/main.81b1ae94.chunk.css",
-    "static/js/main.f442f62d.chunk.js"
+    "static/css/main.eabccce9.css",
+    "static/js/main.9397ef57.js"
   ]
 }

@@ -128,3 +128,7 @@
 		font-size: 3rem;
 	}
 }
+
+.bottom-row .btn-outline-primary:hover {
+	color: #bf532b;
+}

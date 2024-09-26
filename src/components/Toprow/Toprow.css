@@ -37,11 +37,14 @@ a {
 }
 
 .name h1,
-.name p,
+.name p {
+	cursor: default;
+}
+
 .folder h4,
 .folder h3,
 .sticky-note {
-	cursor: default;
+	cursor: pointer;
 }
 
 .name p {
@@ -176,20 +179,43 @@ a {
 
 .tool-tip .tool-tiptext {
 	visibility: hidden;
-	width: 100px;
+	width: fit-content;
 	background: rgba(43, 41, 40, 1);
 	color: rgba(250, 235, 215, 1);
 	text-align: center;
 	border-radius: 4px;
-	padding: 5px 0;
+	padding: 5px 10px 3px 10px;
 	top: 60px;
-	left: -22px;
 	position: absolute;
 	z-index: 1;
 }
 
 .tool-tip:hover .tool-tiptext {
 	visibility: visible;
+}
+
+.tool-tip .tool-tiptext.javascript {
+	left: -21px;
+}
+
+.tool-tip .tool-tiptext.react {
+	left: -4px;
+}
+
+.tool-tip .tool-tiptext.git {
+	left: 6px;
+}
+
+.tool-tip .tool-tiptext.html {
+	left: -6px
+}
+
+.tool-tip .tool-tiptext.css {
+	left: 3px;
+}
+
+.tool-tip .tool-tiptext.bootstrap {
+	left: -19px;
 }
 
 @media (max-width: 991px) {
@@ -227,6 +253,15 @@ a {
 
 	.top-row {
 		padding: 2rem 0.25rem;
+	}
+}
+
+@media (min-height: 1200px) {
+	.folder h4,
+	.folder h3,
+	.sticky-note,
+	.top-row-right a {
+		cursor: default;
 	}
 }
 

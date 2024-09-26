@@ -36,6 +36,14 @@ a {
 	margin-bottom: -.5rem;
 }
 
+.name h1, .name p {
+	cursor: default;
+}
+
+.folder h4, .folder h3, .sticky-note {
+	cursor: pointer;
+}
+
 .name p {
 	font-family: 'JosefinSans-Light';
 	font-size: 1.5rem;
@@ -56,6 +64,13 @@ a {
 	justify-content: center;
 }
 
+.folder-container:hover {
+	transform: scale(1.02);
+	transition: transform 0.25s ease-in-out;
+}
+
+
+
 .icon-container {
 	display: flex;
     flex-direction: row;
@@ -67,8 +82,8 @@ a {
 }
 
 .icon-style {
-	width: 60px;
-    height: 60px;
+	width: 56px;
+    height: 56px;
 	border-radius: 50%;
 	background-image: linear-gradient(to right, #2B2928, rgba(36, 34, 33, .9), #2B2928);
 	display: flex;
@@ -79,7 +94,14 @@ a {
 }
 
 .icon-style svg path {
-	fill: rgba(250, 235, 215, 1);
+	fill: rgba(250, 235, 215, .9);
+}
+
+.icon-style:hover {
+	opacity: .92;
+	transition: opacity 0.25s ease-in-out;
+	transform: scale(0.97);
+	transition: transform 0.25s ease-in-out;
 }
 
 .folder {
@@ -150,3 +172,32 @@ a {
     top: 114px;
     transform: rotate(192deg);
 }
+@media (max-width: 991px) {
+	.name h1 {
+		font-size: 2rem;
+	}
+	.name {
+		padding: .75rem 1rem .5rem 1rem;
+	}
+	.name p {
+		font-size: 1.35rem;
+  		margin-top: .25rem;
+	}
+	.icon-style {
+		width: 45px;
+		height: 45px;
+	}
+	.icon-container {
+		max-width: 310px;;
+	}
+}
+
+@media (max-width: 767px) {
+	.top-row-right {
+		margin-top: 3.25rem;
+	}
+	.top-row {
+		padding: 2rem 0.25rem;
+	}
+}
+

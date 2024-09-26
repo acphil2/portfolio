@@ -72,6 +72,10 @@ a {
 	transition: transform 0.25s ease-in-out;
 }
 
+.folder:hover {
+	filter: none;
+}
+
 .icon-container {
 	display: flex;
 	flex-direction: row;
